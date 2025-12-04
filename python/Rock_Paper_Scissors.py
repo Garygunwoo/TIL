@@ -36,7 +36,7 @@ print('Computer chose:')
 print(game_images[computer_choice])
 
 if user_choice >= 3 or user_choice < 0:
-    print('You type an invalid number. You lose!')
+    print("You type an invalid number. You lose!")
 elif user_choice == 0 and computer_choice == 2:
     print('You wins!')
 elif user_choice == 2 and computer_choice == 0:
